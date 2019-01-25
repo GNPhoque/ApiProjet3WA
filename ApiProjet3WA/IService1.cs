@@ -14,7 +14,7 @@ namespace ApiProjet3WA
 	{
 
 		[OperationContract]
-		string GetToken();
+		string GetToken(string cred);
 
 		[OperationContract]
 		string GetData(int value);
